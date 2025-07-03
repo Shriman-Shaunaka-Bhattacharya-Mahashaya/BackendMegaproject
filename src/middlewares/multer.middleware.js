@@ -1,5 +1,5 @@
 import multer from 'multer'
-
+//temporarily store data in the disk
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, './public/temp')
